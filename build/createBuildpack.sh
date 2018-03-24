@@ -18,7 +18,7 @@ if [[ $# -lt 1 || $# -gt 3 ]]; then
 fi
 
 zipLocation=$1
-if [[ "$PWD" == *bwce-buildpack/build* || "$PWD" == *bw-buildpack/build* ]]; then
+if [[ "$PWD" == *bwce-buildpack/build* ]]; then
 	cd ..
 fi
 
